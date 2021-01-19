@@ -1,0 +1,96 @@
+.Row1 {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 4em;
+}
+
+.Row2 {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.MapChart {
+  width: 350px;
+  height: 350px;
+}
+
+.Batteries {
+  padding:0px;
+}
+
+h1 {
+  color: #f8f8ff;
+  font-weight: 100;
+}
+
+h2 {
+  color: #f8f8ff;
+  display: inline-block;
+  font-size: 8em;
+  height: 0;
+  line-height: 0 !important;
+}
+
+h3 {
+  color: #f8f8ff;
+  font-weight: 100;
+  font-size: 2em;
+  height: 0;
+  line-height: 0 !important;
+}
+
+h4 {
+  color: #f8f8ff;
+  font-weight: 100;
+}
+
+small {
+  color: #f8f8ff;
+  display: inline;
+  font-size: 2em !important;
+  height: 0;
+  line-height: 0 !important;
+}
+
+body {
+  padding: 10px;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: #f8f8ff;
+  margin-bottom: 15px;
+}
+
+.warning {
+  padding: 20px;
+  background-color: #FF8800; /* Red */
+  color: #f8f8ff;
+  margin-bottom: 15px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: #f8f8ff;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
